@@ -1,0 +1,31 @@
+
+{% include 'header.html' %} 
+            
+<div class="myClass">
+    <p>
+     <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" style="margin-top: 20px; margin-left: 320px;font-size:large">
+       About Agreeableness trait
+     </a>
+   </p>
+   <div class="collapse" id="collapseExample">
+     <div class="card card-body" style="margin-bottom: 20px; background-color:rgb(205, 250, 225);margin-left:130px; margin-right:130px;font-size:large">
+      Agreeableness is a personality trait that describes a person's ability to put others needs before their own.<br/>
+       Those who are more agreeable are more likely to be empathetic and find pleasure in helping others and working with people who need more help. <br/>
+       Commonly used to describe the level of friendliness, kindness and even politeness a person displays.
+    </div>
+   </div>
+ </div>
+
+<form class="form_que" action="/process3/1" method="POST" style="background-color: rgb(255, 232, 251); border: 2px solid black;">
+    
+    {% include 'footer.html' %} 
+
+    <button type="submit" id="btn"  formaction="/process3/0" >Previous</button>
+    <button type="submit" id="btn">Next</button>
+
+</form>
+</div>
+{% include 'contactus.html' %}
+<script src="https://kit.fontawesome.com/d2992789b6.js" crossorigin="anonymous"></script>
+</body>
+</html>

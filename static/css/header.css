@@ -1,0 +1,19 @@
+.form_que{
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding: 3px;
+    font-size: 18px;
+}
+
+td{
+    text-align: center;
+    /* align-content: center; */
+    padding: 9px;
+}
+
+.myClass{
+    max-width: 75%;
+    margin: auto;
+    padding: 25px;
+}
