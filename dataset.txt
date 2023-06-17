@@ -1,0 +1,1 @@
+The dataset used in the project is taken from kaggle. Following is the link for the same: https://www.kaggle.com/datasets/tunguz/big-five-personality-test 
